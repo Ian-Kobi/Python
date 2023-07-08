@@ -28,8 +28,8 @@ if not sys.warnoptions:
 #Auto launch work playlist
 #webbrowser.open('https://www.youtube.com/watch?v=VUSct_4afHo')
 #Api documentation for paper brokerage account
-key = 'PK795DTWRPCHAW4INL62'
-sec = 'iTRtFSYuGaMBcjynVuUyFJwDKADv1vvTLErQc0w7'
+key = 'YOURKEYHERE'
+sec = 'YOURSECRETKEYHERE'
 url = 'https://paper-api.alpaca.markets'
 api = tradeapi.REST(key, sec, url, api_version='v2')
 account = api.get_account()
